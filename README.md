@@ -1,3 +1,3 @@
-<h1>Hello World</h1>
+<h1>Designing of the screen</h1>
 
-My first repository on GitHub
+Giulia Cicero Santalena
