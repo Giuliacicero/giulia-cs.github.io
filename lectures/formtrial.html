@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form first trial </title>
+</head>
+
+<body>
+    <h1>Sign in </h1>
+
+    <h2>Form Enhancements</h2>
+    <form action="http://www.google.com" method="get">
+        <input name="q" type="text" placeholder="search field">
+        <button>Submitt</button>
+
+    </form>
+
+    <h2>Google Test Search</h2>
+    <form action="http://www.google.com">
+        <input name="q" type="text" placeholder="search query">
+        <button>Submitt</button>
+        <input type="submit">
+    </form>
+
+    <h2>Form with Labels </h2>
+    <h2>Option 1</h2>
+    <form action="http://www.google.com">
+        <label> Username: <input name="username" type="text"></label>
+        <label> Password: <input name="password" type="password"> </label>
+        <input type="submit">
+
+
+        <h2>Option 2</h2>
+        <form action="http://www.google.com">
+            <label for="email"> Username:</label>
+            <input id="email" name="email" type="email" required>
+            <label for="password"> Password:</label>
+            <input id="password" name="password" type="password" maxlength="16" required>
+            <input type="submit">
+        </form>
+
+
+        <!--
+         <h2>Form Enhancements</h2>
+    <form action="http://www.google.com">
+        <input name="username" type="text" placeholder="username">
+        <input name="password" type="password" placeholder="password" minlength="8">
+        <input type="submit" value="Login">
+
+    </form>
+    -->
+
+</body>
+
+</html>
