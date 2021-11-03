@@ -1,0 +1,13 @@
+/*Make the h1 elemnts within the website red and 60px font */
+h1 {
+    color:blue;
+}
+
+li {
+    color:blueviolet;
+}
+
+/*Make the table to have a border of 1px that is solid */
+table {
+    border: 1px solid;
+}
