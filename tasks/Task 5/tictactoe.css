@@ -1,0 +1,41 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#board {
+    margin: auto;
+    text-align: center;
+}
+
+.square {
+    float: left;
+    /* I used clear to stop floating  */
+    clear: right;
+    width: 100px;
+    height: 100px;
+    
+}
+
+/* the width is 302 px cause the borders are 1px + 1px */
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.left {
+   border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+

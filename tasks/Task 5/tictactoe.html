@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Tic Tac Toe Board Game</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <!-- In the CSS im going to have 6 classes (square,row then left top right and left to create the borders so the game can be visible) -->
+    <div class="container" id="board">
+
+        <div class="row" id="row1">
+            <div class="top left square"></div>
+            <div class="top middle square"></div>
+            <div class="top right square"></div>
+        </div>
+        <!-- there is no need to insert the class middle in the css cause I already build the game using border 1px for top bottom left and right -->
+        <div class="row" id="row2">
+            <div class="middle left square"></div>
+            <div class="middle center square"></div>
+            <div class="middle right square"></div>
+        </div>
+
+        <div class="row" id="row3">
+            <div class="bottom left square"></div>
+            <div class="bottom middle square"></div>
+            <div class="bottom right square"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

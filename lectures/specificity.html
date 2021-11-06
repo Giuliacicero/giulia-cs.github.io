@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity example </title>
+    <style>
+        body {
+            color: red;
+        }
+
+        li {
+            color: green;
+        }
+
+        .highlight {
+            color: orange;
+        }
+
+        #unique {
+            color: pink;
+        }
+
+        #unique.highlight {
+            color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Paragraph</p>
+    <ul>
+        <li class="highlight"> Person 1 </li>
+        <li>Person 2 </li>
+        <li class="highlight"> Person 3</li>
+        <li> Person 4</li>
+        <li id="unique" class="highlight"> Person 3</li>
+    </ul>
+
+</body>
+
+</html>

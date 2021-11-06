@@ -1,0 +1,33 @@
+
+/* creting the title test using the fot and aligning it in in the center */
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* giving context to td --> in the html I created the area (which size is 100px eache) where the board game is going to be */
+/* */
+
+td {
+    width: 100px;
+    height: 100px;
+   background-color: black;
+    
+}
+
+table {
+    margin: auto;
+    
+}
+
+
+.vertical line {
+    border-left: 1px solid  black;
+    border-right: 1px solid  black;
+    
+}
+
+.horizontal line {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black ;
+}
