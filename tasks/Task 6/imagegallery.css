@@ -1,0 +1,22 @@
+h1 {
+    font-family: "Montserrat", serif;
+    margin-left: 1.5%;
+    text-transform: uppercase;
+  }
+  
+        hr.style-seven {
+        overflow: visible; /* For IE */
+        height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px 0 0 0;
+        border-radius: 20px;
+        /*Styling for <hr> - https://css-tricks.com/examples/hrs/*/
+    }
+  
+  img {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 1.66%;
+  }
